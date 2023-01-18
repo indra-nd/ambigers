@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    overflow-x: hidden !important;
+    font-family: 'Sofia Sans', sans-serif;
+
+}
+
+.navbar {
+    background-image: linear-gradient(to right,#abdce7,#135589);
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.jumbotron {
+    /* background-image: url("/img/bg-2.jpg"); */
+    background-image: linear-gradient(to right, #edfafd, #86d1e2 );
+    margin-bottom: 100px;
+    /* height: 100%; */
+    /* text-align: center; */
+}
+
+.brand-title {
+    margin-top: 160px;
+    color: #135589;
+}
+
+.jumbotron .title-hero{
+    color: #135589;
+    /* margin-top: 180px; */
+    /* margin-bottom: 30px; */
+    font-size: 42px;
+}
+
+.subrand-title {
+    margin-bottom: 30px;
+}
+
+.title-jumbotron {
+    font-weight: 900;
+}
+
+.ban-hero {
+    width: 600px;
+    padding-top: 50px;
+}
+
+#fitur {
+    background-color: #135589;
+    padding-top: 50px;
+    margin-top: -100px;
+    color: #abdce7;
+    padding-bottom: 50px;
+}
+
+#testimoni {
+background-image: linear-gradient(to bottom, #a6d3dd, #86d1e2 );
+margin-top: -50px;
+padding-top: 60px;
+color: #135589;
+padding-bottom: 50px;
+margin-bottom: 50px;
+}
+
+#daftar {
+padding-bottom: 30px;
+background-image: linear-gradient(to top, #edfafd, #86d1e2 );
+margin-top: -50px;
+padding-top: 30px;
+color: #135589;
+}
+
+.title-daftar {
+    font-size: 23px;
+}
+
+footer {
+    padding-top: 80px;
+    color: #59d6f1;
+    /* background-image: linear-gradient(to right, rgb(32, 32, 32),rgb(31, 30, 30)); */
+    background-color: #135589;
+    padding-bottom: 100px;
+}
+
+.link-footer {
+    color: #abdce7;
+}
+
+@media (min-width: 992px) { 
+    .navbar-brand {
+        color: #135589 !important;
+    }
+
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 10px;
+        color: #efdafd !important;
+    }
+    .nav-link:hover {
+        border-bottom: 3px solid #edfafd;
+        padding-bottom: 5px;
+        margin-bottom:-8px;
+    }
+
+    .jumbotron {
+        margin-top: -70px;
+        /* height: 100%; */
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    .ban-hero {
+        width: 800px;
+    }
+
+    .title-daftar {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        background-image: linear-gradient(to right,#abdce7,#135589);
+    }
+
+    /* body {
+        overflow-x: hidden;
+    } */
+}
+
+/* @media only screen and (max-width:992px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:479px) {
+    body {
+        overflow-x: hidden;
+    }
+} */
