@@ -35,6 +35,13 @@ body, html {
     /* text-align: center; */
 }
 
+marquee {
+    margin-top: 40px;
+    background-color: #135589;
+    color: white;
+    font-size: 20px;
+}
+
 .brand-title {
     margin-top: 160px;
     color: #135589;
@@ -70,10 +77,12 @@ body, html {
 
 #testimoni {
 background-image: linear-gradient(to bottom, #a6d3dd, #86d1e2 );
-margin-top: -50px;
-padding-top: 60px;
+/* margin-top: -50px; */
+padding-top: 50px;
+padding-left: 50px;
+padding-right: 50px;
 color: #135589;
-padding-bottom: 50px;
+padding-bottom: 30px;
 margin-bottom: 50px;
 }
 
@@ -101,6 +110,11 @@ footer {
     color: #abdce7;
 }
 
+.card {
+    border-radius: .7rem;
+    padding-bottom: 50px;
+}
+
 @media (min-width: 992px) { 
     .navbar-brand {
         color: #135589 !important;
@@ -122,6 +136,12 @@ footer {
         margin-top: -70px;
         /* height: 100%; */
     }
+
+    marquee {
+    margin-top: 70px;
+    background-color: #135589;
+    color: white;
+    }  
 
     .jumbotron .display-4 {
         font-size: 62px;
