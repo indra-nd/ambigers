@@ -35,7 +35,7 @@ body, html {
     /* text-align: center; */
 }
 
-marquee {
+.marquee {
     margin-top: 40px;
     background-color: #135589;
     color: white;
@@ -110,7 +110,7 @@ footer {
     color: #abdce7;
 }
 
-.card {
+.testi-box {
     border-radius: .7rem;
     padding-bottom: 50px;
 }
@@ -137,7 +137,7 @@ footer {
         /* height: 100%; */
     }
 
-    marquee {
+    .marquee {
     margin-top: 70px;
     background-color: #135589;
     color: white;
