@@ -14,7 +14,11 @@ body, html {
 }
 
 .navbar {
-    background-image: linear-gradient(to right,#abdce7,#135589);
+    /* background-image: linear-gradient(to right,#abdce7,#135589); */
+    background: rgba(19, 85, 137, 0.37);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
 }
 
 .navbar-brand {
@@ -164,7 +168,11 @@ footer {
 
 @media (min-width: 576px) {
     .navbar {
-        background-image: linear-gradient(to right,#abdce7,#135589);
+        /* background-image: linear-gradient(to right,#abdce7,#135589); */
+        background: rgba(19, 85, 137, 0.37);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8.5px);
+        -webkit-backdrop-filter: blur(8.5px);
     }
 
     /* body {
