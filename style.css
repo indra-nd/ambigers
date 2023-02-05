@@ -43,7 +43,7 @@ body, html {
     margin-top: 40px;
     background-color: #135589;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .brand-title {
@@ -142,9 +142,10 @@ footer {
     }
 
     .marquee {
-    margin-top: 70px;
+    margin-top: 70px !important;
     background-color: #135589;
     color: white;
+    font-size: 20px;
     }  
 
     .jumbotron .display-4 {
@@ -175,19 +176,18 @@ footer {
         -webkit-backdrop-filter: blur(8.5px);
     }
 
-    /* body {
-        overflow-x: hidden;
-    } */
-}
+    .img-responsive {
+        padding-top: 90px;
+    }
 
-/* @media only screen and (max-width:992px) {
-    body {
-        overflow-x: hidden;
+    .marquee {
+        margin-top: 15px;
+        background-color: #135589;
+        color: white;
+        font-size: 20px;
+        }  
+
+    .img-benefit {
+        margin-top: 25px;
     }
 }
-
-@media (max-width:479px) {
-    body {
-        overflow-x: hidden;
-    }
-} */
